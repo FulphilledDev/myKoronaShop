@@ -25,7 +25,7 @@
         <nav>
           <ul>
             <li>
-              <a class="nav-link" href="/">Products</a>
+              <a class="nav-link" href="/index.html">Products</a>
             </li>
             <li>
               <a class="nav-link" href="/profile.html">Profile</a>
@@ -35,24 +35,16 @@
       </div>
     </header>
 
-    <!-- Top Rated Section -->
-    <section class="top-rated">
-      <h2>Top Rated</h2>
-      <div class="swiper">
-        <div class="swiper-wrapper"></div>
-      </div>
-    </section>
-
-    <!-- Search Movies -->
+    <!-- Search Products -->
     <section class="search">
       <div class="container">
         <div id="alert"></div>
         <form action="/search.html" class="search-form">
-          <!-- movies and shows radio box -->
-          <div class="search-radio">
-            <input type="radio" id="movie" name="type" value="movie" checked />
-            <label for="movies">Products</label>
-          </div>
+          <!-- products radio box -->
+          <!-- <div class="search-radio">
+            <input type="radio" id="product" name="type" value="product" checked />
+            <label for="products">Products</label>
+          </div> -->
           <div class="search-flex">
             <input
               type="text"
@@ -68,10 +60,16 @@
       </div>
     </section>
 
+    <!-- Products -->
+    <section class="container">
+      <h2>Products</h2>
+      <div id="products-list" class="grid"></div>
+    </section>
+
     <!-- Footer -->
     <footer class="main-footer">
       <div class="container">
-        <div class="logo"><span>KORONA</span></div>
+        <div class="logo"><span>KORONA POS</span></div>
         <div class="social-links">
           <a href="https://www.facebook.com" target="_blank"
             ><i class="fab fa-facebook-f"></i
